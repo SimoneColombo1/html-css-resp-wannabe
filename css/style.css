@@ -127,3 +127,35 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /************************************************
+ Tablet
+ ************************************************/
+ @media screen and (min-width:768px ) {
+ 
+    .site-header {
+        padding-left: 8rem;
+        
+    }
+    
+        .lessons .col {
+            width: 34%;
+           margin-left: 8rem;
+        }
+        .steps{
+            width: 100vh;
+           
+        
+        }
+     
+        .steps .col  {
+            margin-right: 7rem;
+        }
+
+        .why-us .col-left {
+            width: 25%;
+        }
+
+    }
+    
