@@ -132,30 +132,59 @@ img {
  /************************************************
  Tablet
  ************************************************/
- @media screen and (min-width:768px ) {
- 
-    .site-header {
-        padding-left: 8rem;
-        
+ @media screen and (min-width:768px  ) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
     }
     
-        .lessons .col {
-            width: 34%;
-           margin-left: 8rem;
+}
+     /************************************************
+          Mobile
+     ************************************************/
+     @media screen and (min-width:480px  ) {
+      
+       .container{
+        width: 480px;
+       }
+        .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
-        .steps{
-            width: 100vh;
-           
         
-        }
      
-        .steps .col  {
-            margin-right: 7rem;
-        }
+        .lessons .col{
+        width: 100%;
+        padding: 2rem;
+     }
+        .steps{
 
-        .why-us .col-left {
-            width: 25%;
-        }
+            margin-bottom: 0;
 
-    }
-    
+        }
+       .steps .col{
+
+        width: 100%;
+        padding: 2rem;
+        
+
+       }
+        .why-us  {
+            background-color:#1a1d21 ;
+            padding: 6rem 0rem;
+            margin-bottom: 0;
+        }
+        .why-us .col{
+            width: 100%;
+            padding: 2rem;
+
+        }
+      
+        
+     }
